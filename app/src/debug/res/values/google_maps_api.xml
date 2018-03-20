@@ -1,0 +1,26 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=27:CE:52:CD:05:D7:E0:54:43:3A:6B:24:C4:A1:B0:F5:EC:41:E9:D5%3Bcom.instamojo.androidsdksample
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    27:CE:52:CD:05:D7:E0:54:43:3A:6B:24:C4:A1:B0:F5:EC:41:E9:D5
+
+    SHA-1 certificate fingerprint:
+    27:CE:52:CD:05:D7:E0:54:43:3A:6B:24:C4:A1:B0:F5:EC:41:E9:D5
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyDoTMnE6XLAW4Mi2G0yluURoM-b8fwhm_A
+    </string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_after_start"
+    android:visibility="visible"
+    android:padding="16dp"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/end_trip"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background = "@drawable/back_btn_qr"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:elevation="8dp"
+        android:textAllCaps="false"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Trip"
+            android:textSize="36dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To end your trip, please tap the button."
+        android:gravity="center"
+        android:textSize="14sp"
+        android:id="@+id/txt1"
+        android:layout_below="@+id/end_trip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/txt1"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:text="PAY ONLINE" />
+
+
+
+    <Button
+        android:id="@+id/sos"
+        android:textSize="28dp"
+        android:layout_width="80dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_height="80dp"
+        android:background="@drawable/back_end_trip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="SOS" />
+
+
+    <ImageView
+        android:id="@+id/prediction"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView2"
+        android:src="@drawable/ic_map_pin"
+        android:clickable="true"
+         />
+
+
+</RelativeLayout>
